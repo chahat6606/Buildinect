@@ -1,0 +1,95 @@
+/* Basic CSS */
+
+.border{
+    border: 1px solid red;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.home{
+    min-height: 93dvh;
+    background-color: #212121;
+    font-family: Poppins;
+    color: white;
+}
+
+/* CSS for Header */
+
+.head{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1vw;
+    padding-bottom: 1.5vw;
+    width: 95%;
+    flex-direction: column;
+    gap: 0.5vw;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.287);
+}
+
+.welcome{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.Logo{
+    gap:1vw;
+    font-size: 2vw;
+}
+
+.Logo > img{
+    width: 6vw;
+}
+
+.subText{
+    font-size: 1.5vw;
+}
+
+/* CSS for Card Container */
+
+.card-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1vw;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    gap: 1.5vw;
+}
+
+/* CSS for Card */
+
+.Card{
+    background-color: #191919;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    position: relative;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.Card > img{
+    width: 10vw;
+    object-fit: contain;
+}
+
+.Card > p{
+    font-size: 1.5vw;
+}
+
